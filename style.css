@@ -1,0 +1,36 @@
+.calculator{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    padding: 30px;
+    gap: 10px;
+    margin: auto;
+    width: 30vw;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.907);
+    border-radius: 5%;
+}
+.item{
+    background-color: rgba(0, 0, 0, 0.504);
+    font-size: x-large;
+    border-radius: 10%;
+    color: white;
+}
+.panel{
+    overflow: hidden;
+    height: 90px;
+    grid-column: 1 / 5;
+    background-color: brown;
+    font-size: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    color: white;
+}
+.equal{
+    grid-column: 4/5;
+    grid-row: 5/7;
+}
+.zero{
+    grid-column: 1/3;
+}
